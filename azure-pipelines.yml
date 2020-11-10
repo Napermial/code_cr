@@ -26,4 +26,4 @@ steps:
   inputs:
     authenticationType: 'PowerPlatformSPN'
     PowerPlatformSPN: 'code'
-    PowerPlatformEnvironment: 'Code Sandbox'
+    PowerPlatformEnvironment: 'code'
