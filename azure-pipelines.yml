@@ -18,6 +18,9 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
+- task: PowerPlatformToolInstaller@0
+  inputs:
+    DefaultVersion: true
 - task: PowerPlatformWhoAmi@0
   inputs:
     authenticationType: 'PowerPlatformEnvironment'
