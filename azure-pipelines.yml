@@ -24,3 +24,7 @@ steps:
 - task: PowerPlatformWhoAmi@0
   inputs:
     authenticationType: 'PowerPlatformEnvironment'
+- task: PowerPlatformWhoAmi@0
+  inputs:
+    authenticationType: 'PowerPlatformSPN'
+    PowerPlatformSPN: 'code'
