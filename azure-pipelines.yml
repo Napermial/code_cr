@@ -17,7 +17,10 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-
+- task: NuGetCommand@2
+  inputs:
+    command: 'custom'
+    arguments: 'Install-Package Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool -Version 9.0.0.7'
 - task: PowerPlatformToolInstaller@0
   inputs:
     DefaultVersion: true
