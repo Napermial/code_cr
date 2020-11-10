@@ -20,7 +20,7 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'custom'
-    arguments: 'Install-Package Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool'
+    arguments: 'install Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool'
 - task: PowerPlatformToolInstaller@0
   inputs:
     DefaultVersion: true
