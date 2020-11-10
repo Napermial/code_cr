@@ -26,4 +26,3 @@ steps:
   inputs:
     authenticationType: 'PowerPlatformSPN'
     PowerPlatformSPN: 'code'
-    PowerPlatformEnvironment: 'code'
